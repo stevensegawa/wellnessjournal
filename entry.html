@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mood Entry</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div class="parent-container">
+            <form id="my-form">
+            <div class="box-1">
+                <div class="mood-container">
+                    <div id="color-box" class="color-box"></div>
+                    <p>Mood:</p>
+                    <input id="mood" type="text" name="name">
+                </div>
+                <div>
+                    <img src="images/mood-meter.png" alt="Mood Meter">
+                </div>
+            </div>
+            <div class="box-2">
+                <div class="when-container">
+                    <p>Date:</p>
+                    <input id="date" type="text" name="name" placeholder="MM/DD">
+                    <p>Time:</p>
+                    <input id="time" type="text" name="name" placeholder="HH:MM">
+                </div>
+                <div class="journal-container">
+                    <textarea id="journal" name="message" placeholder="Enter journal entry here"></textarea>
+                </div>
+            </div>
+            </form>
+        </div>
+        <div class="buttons">
+            <button class="update-button">Update</button>
+            <button class="reset-button">Reset</button>
+            <a href="main.html"><button class="exit-button">Exit</button></a>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
